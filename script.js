@@ -1,6 +1,6 @@
 document.getElementById('pickButton').addEventListener('click', function() {
     const numberDisplay = document.getElementById('numberDisplay');
-    const duration = 3000;
+    const duration = 5000;
     const interval = 100;
     const endTime = Date.now() + duration;
 
