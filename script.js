@@ -1,7 +1,7 @@
 document.getElementById('pickButton').addEventListener('click', function() {
     const numberDisplay = document.getElementById('numberDisplay');
     const duration = 5000;
-    const interval = 50;
+    const interval = 100;
     const endTime = Date.now() + duration;
 
     let animationInterval = setInterval(() => {
